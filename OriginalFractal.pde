@@ -12,7 +12,12 @@ public void draw()
 	background(0);
 	noFill();
 	stroke(255);
-	Repeat(400,225,300);
+	Repeat(400,225,700);
+	if (keyPressed == true)
+	{
+		background(0);
+		Repeat(400,225,700);
+	}
 }
 
 public void Repeat(int x, int y, int big)
